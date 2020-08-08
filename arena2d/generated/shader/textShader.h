@@ -1,0 +1,32 @@
+static const char * VERTEX_SHADER_SOURCE = 
+"#version 120\n"
+"\n"
+"attribute vec3 vertex;\n"
+"attribute vec4 color;\n"
+"attribute vec2 uv;\n"
+"\n"
+"varying vec4 out_color;\n"
+"varying vec2 out_uv;\n"
+"uniform mat4 projMat;\n"
+"uniform mat4 cameraMat;\n"
+"uniform mat4 modelMat;\n"
+"void main()\n"
+"{\n"
+"	gl_Position = projMat * cameraMat * modelMat * vec4(vertex, 1); \n"
+"	out_color = color;\n"
+"	out_uv = uv;\n"
+"}\n"
+;
+
+static const char * FRAGMENT_SHADER_SOURCE = 
+"#version 120\n"
+"\n"
+"varying vec4 out_color;\n"
+"varying vec2 out_uv;\n"
+"\n"
+"uniform sampler2D tex;\n"
+"void main()\n"
+"{\n"
+"	gl_FragColor =  vec4(out_color.rgb, texture2D(tex, out_uv).r * out_color.a);\n"
+"}\n"
+;

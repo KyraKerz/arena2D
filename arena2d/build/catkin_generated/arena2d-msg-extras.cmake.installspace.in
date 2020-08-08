@@ -1,0 +1,2 @@
+set(arena2d_MESSAGE_FILES "msg/observation.msg")
+set(arena2d_SERVICE_FILES "srv/interactionDiscActs.srv;srv/arenaCommand.srv")

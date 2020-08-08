@@ -1,0 +1,2 @@
+sensor_msgs/LaserScan laser
+geometry_msgs/Vector3 relativ_goal_pos

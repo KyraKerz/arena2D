@@ -1,0 +1,2 @@
+set(arena2d_MESSAGE_FILES "/home/joe/projects/rl/src/arena2d/msg/observation.msg")
+set(arena2d_SERVICE_FILES "/home/joe/projects/rl/src/arena2d/srv/interactionDiscActs.srv;/home/joe/projects/rl/src/arena2d/srv/arenaCommand.srv")
