@@ -30,7 +30,7 @@ int Arena::initROS(int argc, char *argv[])
 	nh_interaction.setCallbackQueue(&interaction_callback_queue_);
 	INFO("-> advertising interaction service");
 	interaction_server_ = nh_interaction.advertiseService<Arena, arena2d::interactionDiscActs::Request, arena2d::interactionDiscActs::Response>(
-		"area2d/interaction", &Arena::interactionCallback, this);
+		"area/interaction", &Arena::interactionCallback, this);
 	if (!interaction_server_)
 	{
 		return -1;

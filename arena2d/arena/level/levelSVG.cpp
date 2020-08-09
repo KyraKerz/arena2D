@@ -1,5 +1,5 @@
 #include "levelSVG.h"
-
+#include "engine/globalSettings.h"
 void SpawnTesterCallback::test(b2World* w, SVGFile * f, float radius, float offset)
 {
 	b2Vec2 dim(f->getWidth(), f->getHeight());
@@ -48,10 +48,19 @@ LevelSVG::LevelSVG(b2World * w) : Level(w, Level::SVG)
 	_currentFileIndex = -1;
 	_spawnBuffer = 0;
 
-	const char * folder_path = _SETTINGS->stage.svg_path;
+	auto package_path = GLOBAL_PACKAGE_PATH.c_str();
+	const char * delim = "/";
+	const char * relative_folder_path = _SETTINGS->stage.svg_path;
+    char folder_path[256];
+	strncpy(folder_path,package_path,sizeof(folder_path));
+	strncat(folder_path,delim,sizeof(folder_path));
+	strncat(folder_path,relative_folder_path,sizeof(folder_path));
+
+
+
 	INFO_F("Loading svg levels from \"%s\":", folder_path);
 	DIR * d;
-	d = opendir(_SETTINGS->stage.svg_path);
+	d = opendir(folder_path);
 	if(d == NULL){
 		ERROR_F("Could not open folder \"%s\"!", folder_path);
 		return;
