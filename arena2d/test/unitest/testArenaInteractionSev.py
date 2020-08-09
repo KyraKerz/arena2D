@@ -4,13 +4,13 @@ import unittest
 import sys
 import numpy as np
 import numpy.random
-from arena2d.srv import interactionDiscActs
+from arena2d.srv import interactionDiscActs,interactionDiscActsRequest
 
 
 class TestArenaInteractionSev(unittest.TestCase):
 
     def test_getting_response(self):
-        service_name = "area2d/interaction"
+        service_name = "area/interaction"
         try:
             rospy.wait_for_service(service_name, 10)
         except rospy.ROSException() as e:
@@ -23,7 +23,8 @@ class TestArenaInteractionSev(unittest.TestCase):
         num_envs = 4
         for i in range(8):
             actions = np.random.randint(action_range_min, action_range_max+1, num_envs)
-            resp = send_actions(actions)
+            res = in
+            resp = send_actions(actions.tolist())
             print(resp)
 
 

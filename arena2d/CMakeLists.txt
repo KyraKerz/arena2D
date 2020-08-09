@@ -112,7 +112,7 @@ endif()
 if(NOT NO_ROS)
 add_service_files(
 	FILES
-	interactionDiscActs.srv
+	InteractionDiscActs.srv
 	arenaCommand.srv
 )
 endif()
@@ -143,13 +143,13 @@ endif()
 ## LIBRARIES: libraries you create in this project that dependent projects also need
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
-#catkin_package(
+
+catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES arena2d
-#  CATKIN_DEPENDS
-#	message_runtime
-#  DEPENDS system_lib
-#)
+ CATKIN_DEPENDS
+	message_runtime # necessary for using package defined msgs and srvs.
+)
 
 ###########
 ## Build ##

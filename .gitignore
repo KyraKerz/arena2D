@@ -11,7 +11,7 @@ runs/
 /*.dat
 /*.dat.txt
 command_history.txt
-build/
+**/build/*
 user_config.cmake
 *.aux
 *.log

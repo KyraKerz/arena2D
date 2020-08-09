@@ -39,7 +39,7 @@
 #include <geometry_msgs/Vector3.h>
 #include <ros/package.h>
 // services for discrete actions.
-#include <arena2d/interactionDiscActs.h>
+#include <arena2d/InteractionDiscActs.h>
 #include <arena2d/arenaCommand.h>
 #endif
 #include <pthread.h>
@@ -132,7 +132,7 @@ private:
 		int initROS(int argc,char* argv[]);
 		bool remoteCommand(	arena2d::arenaCommand::Request & req,
 						   	arena2d::arenaCommand::Response & res);
-		bool interactionCallback( arena2d::interactionDiscActs::Request & req, arena2d::interactionDiscActs::Response & res);
+		bool interactionCallback( arena2d::InteractionDiscActs::Request & req, arena2d::InteractionDiscActs::Response & res);
 		void step_update(); // only handle key-stroke, other logics such as prestep, poststep implemented in update will be move to interactionCallback
 	#endif
 

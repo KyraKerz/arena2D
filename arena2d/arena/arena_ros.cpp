@@ -29,7 +29,7 @@ int Arena::initROS(int argc, char *argv[])
 	ros::NodeHandle nh_interaction;
 	nh_interaction.setCallbackQueue(&interaction_callback_queue_);
 	INFO("-> advertising interaction service");
-	interaction_server_ = nh_interaction.advertiseService<Arena, arena2d::interactionDiscActs::Request, arena2d::interactionDiscActs::Response>(
+	interaction_server_ = nh_interaction.advertiseService<Arena, arena2d::InteractionDiscActs::Request, arena2d::InteractionDiscActs::Response>(
 		"area/interaction", &Arena::interactionCallback, this);
 	if (!interaction_server_)
 	{
@@ -50,8 +50,8 @@ bool Arena::remoteCommand(arena2d::arenaCommand::Request &req,
 	return true;
 }
 
-bool Arena::interactionCallback(arena2d::interactionDiscActs::Request &req,
-								arena2d::interactionDiscActs::Response &res)
+bool Arena::interactionCallback(arena2d::InteractionDiscActs::Request &req,
+								arena2d::InteractionDiscActs::Response &res)
 {
 
 	// _remoteStep = true;
