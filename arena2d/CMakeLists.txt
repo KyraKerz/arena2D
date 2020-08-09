@@ -34,7 +34,7 @@ find_package(catkin REQUIRED COMPONENTS
 			std_msgs
 			sensor_msgs
 			message_generation
-			
+			rostest
 )
 endif()
 
@@ -81,6 +81,13 @@ endif()
 message(${INCLUDE_INFO_MESSAGE})
 message(${LIBRARY_INFO_MESSAGE})
 
+# config global setting files
+if(NO_ROS)
+	set(PACKAGE_PATH ".") # if ros is not enabled, set 
+else()
+	set(PACKAGE_PATH ${PROJECT_SOURCE_DIR})
+endif()
+configure_file(engine/globalSettings.cpp.in ${PROJECT_SOURCE_DIR}/engine/globalSettings.cpp)
 
 # include external cmake files for generators
 include(generator/generate_shader.cmake)
@@ -155,7 +162,7 @@ include_directories(
 	${OPENGL_INCLUDE_DIRS}
 	${SDL2_INCLUDE_DIRS}
 	${FREETYPE_INCLUDE_DIRS}
-	/home/joe/projects/rl/devel/include #TODO need to delete later
+	# /home/joe/projects/rl/devel/include #TODO need to delete later
 )
 if(NOT NO_ROS)
 	include_directories(${catkin_INCLUDE_DIRS})
@@ -200,13 +207,13 @@ endif()
 # 							  ${CMAKE_SOURCE_DIR}/data $<TARGET_FILE_DIR:arena>)
 
 # add needed fonts to the folder have executation
-add_custom_command(TARGET arena POST_BUILD
-                   COMMAND ${CMAKE_COMMAND} -E copy_directory
-				   ${PROJECT_SOURCE_DIR}/data $<TARGET_FILE_DIR:arena>/data
-				   COMMAND ${CMAKE_COMMAND} -E copy_directory
-				   ${PROJECT_SOURCE_DIR}/level $<TARGET_FILE_DIR:arena>/level
-				   COMMAND ${CMAKE_COMMAND} -E copy
-				   ${PROJECT_SOURCE_DIR}/settings.st $<TARGET_FILE_DIR:arena>/settings.st)
+# add_custom_command(TARGET arena POST_BUILD
+#                    COMMAND ${CMAKE_COMMAND} -E copy_directory
+# 				   ${PROJECT_SOURCE_DIR}/data $<TARGET_FILE_DIR:arena>/data
+# 				   COMMAND ${CMAKE_COMMAND} -E copy_directory
+# 				   ${PROJECT_SOURCE_DIR}/level $<TARGET_FILE_DIR:arena>/level
+# 				   COMMAND ${CMAKE_COMMAND} -E copy
+# 				   ${PROJECT_SOURCE_DIR}/settings.st $<TARGET_FILE_DIR:arena>/settings.st)
 # specifying link libraries
 set(ARENA_LINK_LIBRARIES
 	box2d
@@ -232,4 +239,10 @@ if(NOT NO_ROS)
 	target_link_libraries(remote_commandline ${catkin_LIBRARIES})
 	set_property(TARGET remote_commandline PROPERTY CXX_STANDARD 11)
 
+endif()
+if(CATKIN_ENABLE_TESTING)
+	# put our python test scripts into destionation folder
+	# so that it can be invoked in the launch file or test file directly with its name
+	# dont forget to change the mod of corresponding python scripts, otherwise the test will failed!
+	add_rostest(launch/interactionServ.test)
 endif()

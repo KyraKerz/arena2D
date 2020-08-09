@@ -1,6 +1,6 @@
 #include "globalSettings.h"
 #include <string>
-const std::string GLOBAL_PACKAGE_PATH = "/home/joe/projects/rl/src/arena2d";
+const std::string GLOBAL_PACKAGE_PATH = "@PACKAGE_PATH@";
 
 SDL_Keycode sGamePadButton::getKeycode(const SDL_Event & e)
 {

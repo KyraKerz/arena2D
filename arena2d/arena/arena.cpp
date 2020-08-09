@@ -74,7 +74,7 @@ int Arena::init(int argc, char ** argv)
 	initCommands();
 
 	/* init global settings*/
-	std::string package_path = ".";
+	std::string package_path = GLOBAL_PACKAGE_PATH;
 	std::string settings_file_path = package_path + "/settings.st";
 	_SETTINGS_OBJ->init(settings_file_path.c_str());
 

@@ -1,537 +1,643 @@
 [
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/remote_commandline.dir/remote_commandline/remote_commandline.cpp.o -c /home/joe/projects/rl/src/arena2d/remote_commandline/remote_commandline.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/remote_commandline.dir/remote_commandline/remote_commandline.cpp.o -c /home/joe/projects/rl/src/arena2d/remote_commandline/remote_commandline.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/remote_commandline/remote_commandline.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/generated/resources/resource_list.cpp.o -c /home/joe/projects/rl/src/arena2d/generated/resources/resource_list.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/generated/resources/resource_list.cpp.o -c /home/joe/projects/rl/src/arena2d/generated/resources/resource_list.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/generated/resources/resource_list.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/generated/settings/dynamicSettings.cpp.o -c /home/joe/projects/rl/src/arena2d/generated/settings/dynamicSettings.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/generated/settings/dynamicSettings.cpp.o -c /home/joe/projects/rl/src/arena2d/generated/settings/dynamicSettings.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/generated/settings/dynamicSettings.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/arena/arena.cpp.o -c /home/joe/projects/rl/src/arena2d/arena/arena.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/arena/arena.cpp.o -c /home/joe/projects/rl/src/arena2d/arena/arena.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/arena/arena.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/arena/arena_cmd.cpp.o -c /home/joe/projects/rl/src/arena2d/arena/arena_cmd.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/arena/arena_cmd.cpp.o -c /home/joe/projects/rl/src/arena2d/arena/arena_cmd.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/arena/arena_cmd.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/arena/arena_ros.cpp.o -c /home/joe/projects/rl/src/arena2d/arena/arena_ros.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/arena/arena_ros.cpp.o -c /home/joe/projects/rl/src/arena2d/arena/arena_ros.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/arena/arena_ros.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/arena/arena_py.cpp.o -c /home/joe/projects/rl/src/arena2d/arena/arena_py.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/arena/arena_py.cpp.o -c /home/joe/projects/rl/src/arena2d/arena/arena_py.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/arena/arena_py.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/arena/Command.cpp.o -c /home/joe/projects/rl/src/arena2d/arena/Command.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/arena/Command.cpp.o -c /home/joe/projects/rl/src/arena2d/arena/Command.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/arena/Command.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/arena/Console.cpp.o -c /home/joe/projects/rl/src/arena2d/arena/Console.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/arena/Console.cpp.o -c /home/joe/projects/rl/src/arena2d/arena/Console.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/arena/Console.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/arena/main.cpp.o -c /home/joe/projects/rl/src/arena2d/arena/main.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/arena/main.cpp.o -c /home/joe/projects/rl/src/arena2d/arena/main.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/arena/main.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/arena/physicsWorld.cpp.o -c /home/joe/projects/rl/src/arena2d/arena/physicsWorld.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/arena/physicsWorld.cpp.o -c /home/joe/projects/rl/src/arena2d/arena/physicsWorld.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/arena/physicsWorld.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/arena/level/level.cpp.o -c /home/joe/projects/rl/src/arena2d/arena/level/level.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/arena/level/level.cpp.o -c /home/joe/projects/rl/src/arena2d/arena/level/level.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/arena/level/level.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/arena/level/levelSVG.cpp.o -c /home/joe/projects/rl/src/arena2d/arena/level/levelSVG.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/arena/level/levelSVG.cpp.o -c /home/joe/projects/rl/src/arena2d/arena/level/levelSVG.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/arena/level/levelSVG.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/arena/level/wanderer.cpp.o -c /home/joe/projects/rl/src/arena2d/arena/level/wanderer.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/arena/level/wanderer.cpp.o -c /home/joe/projects/rl/src/arena2d/arena/level/wanderer.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/arena/level/wanderer.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/arena/level/SVGFile.cpp.o -c /home/joe/projects/rl/src/arena2d/arena/level/SVGFile.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/arena/level/SVGFile.cpp.o -c /home/joe/projects/rl/src/arena2d/arena/level/SVGFile.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/arena/level/SVGFile.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/arena/environment.cpp.o -c /home/joe/projects/rl/src/arena2d/arena/environment.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/arena/environment.cpp.o -c /home/joe/projects/rl/src/arena2d/arena/environment.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/arena/environment.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/arena/burger.cpp.o -c /home/joe/projects/rl/src/arena2d/arena/burger.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/arena/burger.cpp.o -c /home/joe/projects/rl/src/arena2d/arena/burger.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/arena/burger.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/arena/lidarCast.cpp.o -c /home/joe/projects/rl/src/arena2d/arena/lidarCast.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/arena/lidarCast.cpp.o -c /home/joe/projects/rl/src/arena2d/arena/lidarCast.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/arena/lidarCast.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/arena/rectSpawn.cpp.o -c /home/joe/projects/rl/src/arena2d/arena/rectSpawn.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/arena/rectSpawn.cpp.o -c /home/joe/projects/rl/src/arena2d/arena/rectSpawn.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/arena/rectSpawn.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/shader/Color2DShader.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/shader/Color2DShader.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/shader/Color2DShader.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/shader/Color2DShader.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/engine/shader/Color2DShader.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/shader/Colorplex2DShader.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/shader/Colorplex2DShader.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/shader/Colorplex2DShader.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/shader/Colorplex2DShader.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/engine/shader/Colorplex2DShader.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/shader/particleShader.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/shader/particleShader.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/shader/particleShader.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/shader/particleShader.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/engine/shader/particleShader.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/shader/SpriteShader.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/shader/SpriteShader.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/shader/SpriteShader.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/shader/SpriteShader.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/engine/shader/SpriteShader.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/shader/TextShader.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/shader/TextShader.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/shader/TextShader.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/shader/TextShader.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/engine/shader/TextShader.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/shader/zShaderProgram.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/shader/zShaderProgram.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/shader/zShaderProgram.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/shader/zShaderProgram.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/engine/shader/zShaderProgram.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/camera.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/camera.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/camera.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/camera.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/engine/camera.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/f_math.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/f_math.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/f_math.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/f_math.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/engine/f_math.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/globalSettings.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/globalSettings.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/globalSettings.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/globalSettings.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/engine/globalSettings.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-gcc-7 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -o CMakeFiles/arena.dir/engine/hashTable.c.o   -c /home/joe/projects/rl/src/arena2d/engine/hashTable.c",
+  "command": "/usr/bin/x86_64-linux-gnu-gcc-7 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -o CMakeFiles/arena.dir/engine/hashTable.c.o   -c /home/joe/projects/rl/src/arena2d/engine/hashTable.c",
   "file": "/home/joe/projects/rl/src/arena2d/engine/hashTable.c"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-gcc-7 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -o CMakeFiles/arena.dir/engine/list.c.o   -c /home/joe/projects/rl/src/arena2d/engine/list.c",
+  "command": "/usr/bin/x86_64-linux-gnu-gcc-7 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -o CMakeFiles/arena.dir/engine/list.c.o   -c /home/joe/projects/rl/src/arena2d/engine/list.c",
   "file": "/home/joe/projects/rl/src/arena2d/engine/list.c"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/particleEmitter.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/particleEmitter.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/particleEmitter.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/particleEmitter.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/engine/particleEmitter.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/renderer.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/renderer.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/renderer.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/renderer.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/engine/renderer.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/resource.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/resource.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/resource.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/resource.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/engine/resource.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/resourceHandler.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/resourceHandler.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/resourceHandler.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/resourceHandler.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/engine/resourceHandler.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/resourceImage.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/resourceImage.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/resourceImage.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/resourceImage.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/engine/resourceImage.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/settingsKeys.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/settingsKeys.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/settingsKeys.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/settingsKeys.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/engine/settingsKeys.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/zColor.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/zColor.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/zColor.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/zColor.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/engine/zColor.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/zFont.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/zFont.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/zFont.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/zFont.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/engine/zFont.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/zFramework.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/zFramework.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/zFramework.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/zFramework.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/engine/zFramework.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/zGlyphMap.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/zGlyphMap.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/zGlyphMap.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/zGlyphMap.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/engine/zGlyphMap.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/zGraphicObject.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/zGraphicObject.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/zGraphicObject.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/zGraphicObject.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/engine/zGraphicObject.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/zLogfile.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/zLogfile.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/zLogfile.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/zLogfile.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/engine/zLogfile.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/zMatrix4x4.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/zMatrix4x4.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/zMatrix4x4.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/zMatrix4x4.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/engine/zMatrix4x4.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/zStringTools.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/zStringTools.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/zStringTools.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/zStringTools.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/engine/zStringTools.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/zTextView.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/zTextView.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/zTextView.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/zTextView.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/engine/zTextView.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/zVector2d.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/zVector2d.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/zVector2d.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/zVector2d.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/engine/zVector2d.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/zVector3d.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/zVector3d.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/zVector3d.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/zVector3d.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/engine/zVector3d.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/zVector4d.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/zVector4d.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/zVector4d.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/zVector4d.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/engine/zVector4d.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-gcc-7 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -o CMakeFiles/arena.dir/engine/glew/glew.c.o   -c /home/joe/projects/rl/src/arena2d/engine/glew/glew.c",
+  "command": "/usr/bin/x86_64-linux-gnu-gcc-7 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -o CMakeFiles/arena.dir/engine/glew/glew.c.o   -c /home/joe/projects/rl/src/arena2d/engine/glew/glew.c",
   "file": "/home/joe/projects/rl/src/arena2d/engine/glew/glew.c"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/joe/projects/rl/src/arena2d/box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/lodepng/lodepng.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/lodepng/lodepng.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../box2d/src/../include  -g   -Wreturn-type -Wuninitialized -g -DARENA_USE_ROS -std=gnu++11 -o CMakeFiles/arena.dir/engine/lodepng/lodepng.cpp.o -c /home/joe/projects/rl/src/arena2d/engine/lodepng/lodepng.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/engine/lodepng/lodepng.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -Wreturn-type -Wuninitialized -g -o CMakeFiles/resourcegenerator.dir/generator/resourcelistgenerator.cpp.o -c /home/joe/projects/rl/src/arena2d/generator/resourcelistgenerator.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -Wreturn-type -Wuninitialized -g -o CMakeFiles/resourcegenerator.dir/generator/resourcelistgenerator.cpp.o -c /home/joe/projects/rl/src/arena2d/generator/resourcelistgenerator.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/generator/resourcelistgenerator.cpp"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-gcc-7 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -Wreturn-type -Wuninitialized -g -o CMakeFiles/settingsgenerator.dir/generator/settingsgenerator.c.o   -c /home/joe/projects/rl/src/arena2d/generator/settingsgenerator.c",
+  "command": "/usr/bin/x86_64-linux-gnu-gcc-7 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -Wreturn-type -Wuninitialized -g -o CMakeFiles/settingsgenerator.dir/generator/settingsgenerator.c.o   -c /home/joe/projects/rl/src/arena2d/generator/settingsgenerator.c",
   "file": "/home/joe/projects/rl/src/arena2d/generator/settingsgenerator.c"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-gcc-7 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -Wreturn-type -Wuninitialized -g -o CMakeFiles/settingsgenerator.dir/generator/list.c.o   -c /home/joe/projects/rl/src/arena2d/generator/list.c",
+  "command": "/usr/bin/x86_64-linux-gnu-gcc-7 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -Wreturn-type -Wuninitialized -g -o CMakeFiles/settingsgenerator.dir/generator/list.c.o   -c /home/joe/projects/rl/src/arena2d/generator/list.c",
   "file": "/home/joe/projects/rl/src/arena2d/generator/list.c"
 },
+
 {
   "directory": "/home/joe/projects/rl/src/arena2d/build",
-  "command": "/usr/bin/x86_64-linux-gnu-gcc-7 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/build/devel/include -I/home/joe/projects/rl/src/arena2d/. -I/home/joe/projects/rl/src/arena2d/./box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/home/joe/projects/rl/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -Wreturn-type -Wuninitialized -g -o CMakeFiles/shadergenerator.dir/generator/shadergenerator.c.o   -c /home/joe/projects/rl/src/arena2d/generator/shadergenerator.c",
+  "command": "/usr/bin/x86_64-linux-gnu-gcc-7 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -Idevel/include -I../. -I.././box2d/include -I/usr/include/SDL2 -I/usr/include/freetype2 -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -Wreturn-type -Wuninitialized -g -o CMakeFiles/shadergenerator.dir/generator/shadergenerator.c.o   -c /home/joe/projects/rl/src/arena2d/generator/shadergenerator.c",
   "file": "/home/joe/projects/rl/src/arena2d/generator/shadergenerator.c"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/gtest/googlemock",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wreturn-type -Wuninitialized -g -o CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wreturn-type -Wuninitialized -g -o gtest/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
   "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/gtest/googlemock",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wreturn-type -Wuninitialized -g -o CMakeFiles/gmock_main.dir/src/gmock-all.cc.o -c /usr/src/googletest/googlemock/src/gmock-all.cc",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wreturn-type -Wuninitialized -g -o gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.o -c /usr/src/googletest/googlemock/src/gmock-all.cc",
   "file": "/usr/src/googletest/googlemock/src/gmock-all.cc"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/gtest/googlemock",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wreturn-type -Wuninitialized -g -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /usr/src/googletest/googlemock/src/gmock_main.cc",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wreturn-type -Wuninitialized -g -o gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /usr/src/googletest/googlemock/src/gmock_main.cc",
   "file": "/usr/src/googletest/googlemock/src/gmock_main.cc"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/gtest/googlemock",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wreturn-type -Wuninitialized -g -o CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wreturn-type -Wuninitialized -g -o gtest/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
   "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/gtest/googlemock",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wreturn-type -Wuninitialized -g -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /usr/src/googletest/googlemock/src/gmock-all.cc",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wreturn-type -Wuninitialized -g -o gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /usr/src/googletest/googlemock/src/gmock-all.cc",
   "file": "/usr/src/googletest/googlemock/src/gmock-all.cc"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/gtest/googlemock/gtest",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_EXPORTS -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wreturn-type -Wuninitialized -g -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /usr/src/googletest/googletest/src/gtest_main.cc",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_EXPORTS -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wreturn-type -Wuninitialized -g -o gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /usr/src/googletest/googletest/src/gtest_main.cc",
   "file": "/usr/src/googletest/googletest/src/gtest_main.cc"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/gtest/googlemock/gtest",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_EXPORTS -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wreturn-type -Wuninitialized -g -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_EXPORTS -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wreturn-type -Wuninitialized -g -o gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
   "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/box2d/src",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/box2d/src/../include -I/home/joe/projects/rl/src/arena2d/box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o CMakeFiles/box2d.dir/collision/b2_broad_phase.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/collision/b2_broad_phase.cpp",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I../box2d/src/../include -I../box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o box2d/src/CMakeFiles/box2d.dir/collision/b2_broad_phase.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/collision/b2_broad_phase.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/box2d/src/collision/b2_broad_phase.cpp"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/box2d/src",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/box2d/src/../include -I/home/joe/projects/rl/src/arena2d/box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o CMakeFiles/box2d.dir/collision/b2_chain_shape.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/collision/b2_chain_shape.cpp",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I../box2d/src/../include -I../box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o box2d/src/CMakeFiles/box2d.dir/collision/b2_chain_shape.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/collision/b2_chain_shape.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/box2d/src/collision/b2_chain_shape.cpp"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/box2d/src",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/box2d/src/../include -I/home/joe/projects/rl/src/arena2d/box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o CMakeFiles/box2d.dir/collision/b2_circle_shape.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/collision/b2_circle_shape.cpp",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I../box2d/src/../include -I../box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o box2d/src/CMakeFiles/box2d.dir/collision/b2_circle_shape.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/collision/b2_circle_shape.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/box2d/src/collision/b2_circle_shape.cpp"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/box2d/src",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/box2d/src/../include -I/home/joe/projects/rl/src/arena2d/box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o CMakeFiles/box2d.dir/collision/b2_collide_circle.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/collision/b2_collide_circle.cpp",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I../box2d/src/../include -I../box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o box2d/src/CMakeFiles/box2d.dir/collision/b2_collide_circle.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/collision/b2_collide_circle.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/box2d/src/collision/b2_collide_circle.cpp"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/box2d/src",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/box2d/src/../include -I/home/joe/projects/rl/src/arena2d/box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o CMakeFiles/box2d.dir/collision/b2_collide_edge.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/collision/b2_collide_edge.cpp",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I../box2d/src/../include -I../box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o box2d/src/CMakeFiles/box2d.dir/collision/b2_collide_edge.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/collision/b2_collide_edge.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/box2d/src/collision/b2_collide_edge.cpp"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/box2d/src",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/box2d/src/../include -I/home/joe/projects/rl/src/arena2d/box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o CMakeFiles/box2d.dir/collision/b2_collide_polygon.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/collision/b2_collide_polygon.cpp",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I../box2d/src/../include -I../box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o box2d/src/CMakeFiles/box2d.dir/collision/b2_collide_polygon.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/collision/b2_collide_polygon.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/box2d/src/collision/b2_collide_polygon.cpp"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/box2d/src",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/box2d/src/../include -I/home/joe/projects/rl/src/arena2d/box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o CMakeFiles/box2d.dir/collision/b2_collision.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/collision/b2_collision.cpp",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I../box2d/src/../include -I../box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o box2d/src/CMakeFiles/box2d.dir/collision/b2_collision.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/collision/b2_collision.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/box2d/src/collision/b2_collision.cpp"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/box2d/src",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/box2d/src/../include -I/home/joe/projects/rl/src/arena2d/box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o CMakeFiles/box2d.dir/collision/b2_distance.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/collision/b2_distance.cpp",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I../box2d/src/../include -I../box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o box2d/src/CMakeFiles/box2d.dir/collision/b2_distance.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/collision/b2_distance.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/box2d/src/collision/b2_distance.cpp"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/box2d/src",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/box2d/src/../include -I/home/joe/projects/rl/src/arena2d/box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o CMakeFiles/box2d.dir/collision/b2_dynamic_tree.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/collision/b2_dynamic_tree.cpp",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I../box2d/src/../include -I../box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o box2d/src/CMakeFiles/box2d.dir/collision/b2_dynamic_tree.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/collision/b2_dynamic_tree.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/box2d/src/collision/b2_dynamic_tree.cpp"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/box2d/src",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/box2d/src/../include -I/home/joe/projects/rl/src/arena2d/box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o CMakeFiles/box2d.dir/collision/b2_edge_shape.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/collision/b2_edge_shape.cpp",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I../box2d/src/../include -I../box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o box2d/src/CMakeFiles/box2d.dir/collision/b2_edge_shape.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/collision/b2_edge_shape.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/box2d/src/collision/b2_edge_shape.cpp"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/box2d/src",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/box2d/src/../include -I/home/joe/projects/rl/src/arena2d/box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o CMakeFiles/box2d.dir/collision/b2_polygon_shape.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/collision/b2_polygon_shape.cpp",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I../box2d/src/../include -I../box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o box2d/src/CMakeFiles/box2d.dir/collision/b2_polygon_shape.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/collision/b2_polygon_shape.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/box2d/src/collision/b2_polygon_shape.cpp"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/box2d/src",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/box2d/src/../include -I/home/joe/projects/rl/src/arena2d/box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o CMakeFiles/box2d.dir/collision/b2_time_of_impact.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/collision/b2_time_of_impact.cpp",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I../box2d/src/../include -I../box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o box2d/src/CMakeFiles/box2d.dir/collision/b2_time_of_impact.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/collision/b2_time_of_impact.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/box2d/src/collision/b2_time_of_impact.cpp"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/box2d/src",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/box2d/src/../include -I/home/joe/projects/rl/src/arena2d/box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o CMakeFiles/box2d.dir/common/b2_block_allocator.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/common/b2_block_allocator.cpp",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I../box2d/src/../include -I../box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o box2d/src/CMakeFiles/box2d.dir/common/b2_block_allocator.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/common/b2_block_allocator.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/box2d/src/common/b2_block_allocator.cpp"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/box2d/src",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/box2d/src/../include -I/home/joe/projects/rl/src/arena2d/box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o CMakeFiles/box2d.dir/common/b2_draw.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/common/b2_draw.cpp",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I../box2d/src/../include -I../box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o box2d/src/CMakeFiles/box2d.dir/common/b2_draw.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/common/b2_draw.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/box2d/src/common/b2_draw.cpp"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/box2d/src",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/box2d/src/../include -I/home/joe/projects/rl/src/arena2d/box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o CMakeFiles/box2d.dir/common/b2_math.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/common/b2_math.cpp",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I../box2d/src/../include -I../box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o box2d/src/CMakeFiles/box2d.dir/common/b2_math.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/common/b2_math.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/box2d/src/common/b2_math.cpp"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/box2d/src",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/box2d/src/../include -I/home/joe/projects/rl/src/arena2d/box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o CMakeFiles/box2d.dir/common/b2_settings.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/common/b2_settings.cpp",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I../box2d/src/../include -I../box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o box2d/src/CMakeFiles/box2d.dir/common/b2_settings.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/common/b2_settings.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/box2d/src/common/b2_settings.cpp"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/box2d/src",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/box2d/src/../include -I/home/joe/projects/rl/src/arena2d/box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o CMakeFiles/box2d.dir/common/b2_stack_allocator.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/common/b2_stack_allocator.cpp",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I../box2d/src/../include -I../box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o box2d/src/CMakeFiles/box2d.dir/common/b2_stack_allocator.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/common/b2_stack_allocator.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/box2d/src/common/b2_stack_allocator.cpp"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/box2d/src",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/box2d/src/../include -I/home/joe/projects/rl/src/arena2d/box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o CMakeFiles/box2d.dir/common/b2_timer.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/common/b2_timer.cpp",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I../box2d/src/../include -I../box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o box2d/src/CMakeFiles/box2d.dir/common/b2_timer.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/common/b2_timer.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/box2d/src/common/b2_timer.cpp"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/box2d/src",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/box2d/src/../include -I/home/joe/projects/rl/src/arena2d/box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o CMakeFiles/box2d.dir/dynamics/b2_body.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_body.cpp",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I../box2d/src/../include -I../box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o box2d/src/CMakeFiles/box2d.dir/dynamics/b2_body.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_body.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_body.cpp"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/box2d/src",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/box2d/src/../include -I/home/joe/projects/rl/src/arena2d/box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o CMakeFiles/box2d.dir/dynamics/b2_chain_circle_contact.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_chain_circle_contact.cpp",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I../box2d/src/../include -I../box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o box2d/src/CMakeFiles/box2d.dir/dynamics/b2_chain_circle_contact.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_chain_circle_contact.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_chain_circle_contact.cpp"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/box2d/src",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/box2d/src/../include -I/home/joe/projects/rl/src/arena2d/box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o CMakeFiles/box2d.dir/dynamics/b2_chain_polygon_contact.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_chain_polygon_contact.cpp",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I../box2d/src/../include -I../box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o box2d/src/CMakeFiles/box2d.dir/dynamics/b2_chain_polygon_contact.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_chain_polygon_contact.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_chain_polygon_contact.cpp"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/box2d/src",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/box2d/src/../include -I/home/joe/projects/rl/src/arena2d/box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o CMakeFiles/box2d.dir/dynamics/b2_circle_contact.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_circle_contact.cpp",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I../box2d/src/../include -I../box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o box2d/src/CMakeFiles/box2d.dir/dynamics/b2_circle_contact.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_circle_contact.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_circle_contact.cpp"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/box2d/src",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/box2d/src/../include -I/home/joe/projects/rl/src/arena2d/box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o CMakeFiles/box2d.dir/dynamics/b2_contact.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_contact.cpp",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I../box2d/src/../include -I../box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o box2d/src/CMakeFiles/box2d.dir/dynamics/b2_contact.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_contact.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_contact.cpp"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/box2d/src",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/box2d/src/../include -I/home/joe/projects/rl/src/arena2d/box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o CMakeFiles/box2d.dir/dynamics/b2_contact_manager.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_contact_manager.cpp",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I../box2d/src/../include -I../box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o box2d/src/CMakeFiles/box2d.dir/dynamics/b2_contact_manager.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_contact_manager.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_contact_manager.cpp"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/box2d/src",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/box2d/src/../include -I/home/joe/projects/rl/src/arena2d/box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o CMakeFiles/box2d.dir/dynamics/b2_contact_solver.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_contact_solver.cpp",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I../box2d/src/../include -I../box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o box2d/src/CMakeFiles/box2d.dir/dynamics/b2_contact_solver.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_contact_solver.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_contact_solver.cpp"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/box2d/src",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/box2d/src/../include -I/home/joe/projects/rl/src/arena2d/box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o CMakeFiles/box2d.dir/dynamics/b2_distance_joint.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_distance_joint.cpp",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I../box2d/src/../include -I../box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o box2d/src/CMakeFiles/box2d.dir/dynamics/b2_distance_joint.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_distance_joint.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_distance_joint.cpp"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/box2d/src",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/box2d/src/../include -I/home/joe/projects/rl/src/arena2d/box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o CMakeFiles/box2d.dir/dynamics/b2_edge_circle_contact.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_edge_circle_contact.cpp",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I../box2d/src/../include -I../box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o box2d/src/CMakeFiles/box2d.dir/dynamics/b2_edge_circle_contact.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_edge_circle_contact.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_edge_circle_contact.cpp"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/box2d/src",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/box2d/src/../include -I/home/joe/projects/rl/src/arena2d/box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o CMakeFiles/box2d.dir/dynamics/b2_edge_polygon_contact.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_edge_polygon_contact.cpp",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I../box2d/src/../include -I../box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o box2d/src/CMakeFiles/box2d.dir/dynamics/b2_edge_polygon_contact.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_edge_polygon_contact.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_edge_polygon_contact.cpp"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/box2d/src",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/box2d/src/../include -I/home/joe/projects/rl/src/arena2d/box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o CMakeFiles/box2d.dir/dynamics/b2_fixture.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_fixture.cpp",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I../box2d/src/../include -I../box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o box2d/src/CMakeFiles/box2d.dir/dynamics/b2_fixture.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_fixture.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_fixture.cpp"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/box2d/src",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/box2d/src/../include -I/home/joe/projects/rl/src/arena2d/box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o CMakeFiles/box2d.dir/dynamics/b2_friction_joint.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_friction_joint.cpp",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I../box2d/src/../include -I../box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o box2d/src/CMakeFiles/box2d.dir/dynamics/b2_friction_joint.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_friction_joint.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_friction_joint.cpp"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/box2d/src",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/box2d/src/../include -I/home/joe/projects/rl/src/arena2d/box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o CMakeFiles/box2d.dir/dynamics/b2_gear_joint.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_gear_joint.cpp",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I../box2d/src/../include -I../box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o box2d/src/CMakeFiles/box2d.dir/dynamics/b2_gear_joint.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_gear_joint.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_gear_joint.cpp"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/box2d/src",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/box2d/src/../include -I/home/joe/projects/rl/src/arena2d/box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o CMakeFiles/box2d.dir/dynamics/b2_island.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_island.cpp",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I../box2d/src/../include -I../box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o box2d/src/CMakeFiles/box2d.dir/dynamics/b2_island.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_island.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_island.cpp"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/box2d/src",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/box2d/src/../include -I/home/joe/projects/rl/src/arena2d/box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o CMakeFiles/box2d.dir/dynamics/b2_joint.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_joint.cpp",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I../box2d/src/../include -I../box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o box2d/src/CMakeFiles/box2d.dir/dynamics/b2_joint.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_joint.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_joint.cpp"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/box2d/src",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/box2d/src/../include -I/home/joe/projects/rl/src/arena2d/box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o CMakeFiles/box2d.dir/dynamics/b2_motor_joint.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_motor_joint.cpp",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I../box2d/src/../include -I../box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o box2d/src/CMakeFiles/box2d.dir/dynamics/b2_motor_joint.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_motor_joint.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_motor_joint.cpp"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/box2d/src",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/box2d/src/../include -I/home/joe/projects/rl/src/arena2d/box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o CMakeFiles/box2d.dir/dynamics/b2_mouse_joint.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_mouse_joint.cpp",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I../box2d/src/../include -I../box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o box2d/src/CMakeFiles/box2d.dir/dynamics/b2_mouse_joint.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_mouse_joint.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_mouse_joint.cpp"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/box2d/src",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/box2d/src/../include -I/home/joe/projects/rl/src/arena2d/box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o CMakeFiles/box2d.dir/dynamics/b2_polygon_circle_contact.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_polygon_circle_contact.cpp",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I../box2d/src/../include -I../box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o box2d/src/CMakeFiles/box2d.dir/dynamics/b2_polygon_circle_contact.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_polygon_circle_contact.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_polygon_circle_contact.cpp"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/box2d/src",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/box2d/src/../include -I/home/joe/projects/rl/src/arena2d/box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o CMakeFiles/box2d.dir/dynamics/b2_polygon_contact.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_polygon_contact.cpp",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I../box2d/src/../include -I../box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o box2d/src/CMakeFiles/box2d.dir/dynamics/b2_polygon_contact.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_polygon_contact.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_polygon_contact.cpp"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/box2d/src",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/box2d/src/../include -I/home/joe/projects/rl/src/arena2d/box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o CMakeFiles/box2d.dir/dynamics/b2_prismatic_joint.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_prismatic_joint.cpp",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I../box2d/src/../include -I../box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o box2d/src/CMakeFiles/box2d.dir/dynamics/b2_prismatic_joint.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_prismatic_joint.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_prismatic_joint.cpp"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/box2d/src",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/box2d/src/../include -I/home/joe/projects/rl/src/arena2d/box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o CMakeFiles/box2d.dir/dynamics/b2_pulley_joint.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_pulley_joint.cpp",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I../box2d/src/../include -I../box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o box2d/src/CMakeFiles/box2d.dir/dynamics/b2_pulley_joint.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_pulley_joint.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_pulley_joint.cpp"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/box2d/src",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/box2d/src/../include -I/home/joe/projects/rl/src/arena2d/box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o CMakeFiles/box2d.dir/dynamics/b2_revolute_joint.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_revolute_joint.cpp",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I../box2d/src/../include -I../box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o box2d/src/CMakeFiles/box2d.dir/dynamics/b2_revolute_joint.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_revolute_joint.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_revolute_joint.cpp"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/box2d/src",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/box2d/src/../include -I/home/joe/projects/rl/src/arena2d/box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o CMakeFiles/box2d.dir/dynamics/b2_rope_joint.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_rope_joint.cpp",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I../box2d/src/../include -I../box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o box2d/src/CMakeFiles/box2d.dir/dynamics/b2_rope_joint.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_rope_joint.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_rope_joint.cpp"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/box2d/src",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/box2d/src/../include -I/home/joe/projects/rl/src/arena2d/box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o CMakeFiles/box2d.dir/dynamics/b2_weld_joint.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_weld_joint.cpp",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I../box2d/src/../include -I../box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o box2d/src/CMakeFiles/box2d.dir/dynamics/b2_weld_joint.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_weld_joint.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_weld_joint.cpp"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/box2d/src",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/box2d/src/../include -I/home/joe/projects/rl/src/arena2d/box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o CMakeFiles/box2d.dir/dynamics/b2_wheel_joint.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_wheel_joint.cpp",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I../box2d/src/../include -I../box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o box2d/src/CMakeFiles/box2d.dir/dynamics/b2_wheel_joint.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_wheel_joint.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_wheel_joint.cpp"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/box2d/src",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/box2d/src/../include -I/home/joe/projects/rl/src/arena2d/box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o CMakeFiles/box2d.dir/dynamics/b2_world.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_world.cpp",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I../box2d/src/../include -I../box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o box2d/src/CMakeFiles/box2d.dir/dynamics/b2_world.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_world.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_world.cpp"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/box2d/src",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/box2d/src/../include -I/home/joe/projects/rl/src/arena2d/box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o CMakeFiles/box2d.dir/dynamics/b2_world_callbacks.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_world_callbacks.cpp",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I../box2d/src/../include -I../box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o box2d/src/CMakeFiles/box2d.dir/dynamics/b2_world_callbacks.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_world_callbacks.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/box2d/src/dynamics/b2_world_callbacks.cpp"
 },
+
 {
-  "directory": "/home/joe/projects/rl/src/arena2d/build/box2d/src",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I/home/joe/projects/rl/src/arena2d/box2d/src/../include -I/home/joe/projects/rl/src/arena2d/box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o CMakeFiles/box2d.dir/rope/b2_rope.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/rope/b2_rope.cpp",
+  "directory": "/home/joe/projects/rl/src/arena2d/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"arena2d\\\" -I../box2d/src/../include -I../box2d/src  -g   -Wreturn-type -Wuninitialized -g -std=c++11 -o box2d/src/CMakeFiles/box2d.dir/rope/b2_rope.cpp.o -c /home/joe/projects/rl/src/arena2d/box2d/src/rope/b2_rope.cpp",
   "file": "/home/joe/projects/rl/src/arena2d/box2d/src/rope/b2_rope.cpp"
 }
 ]

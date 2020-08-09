@@ -51,7 +51,7 @@ training{
 	reward_distance_to_goal_increased = -0.2
 	reward_wall = -10.0
 	reward_time_out = 0.0
-	num_envs = 1
+	num_envs = 4
 	num_threads = -1
 }
 

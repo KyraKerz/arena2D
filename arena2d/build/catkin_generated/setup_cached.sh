@@ -9,7 +9,6 @@
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/joe/projects/rl/src/arena2d/build/devel:$CMAKE_PREFIX_PATH"
 export LD_LIBRARY_PATH="/home/joe/projects/rl/src/arena2d/build/devel/lib:$LD_LIBRARY_PATH"
-export PATH="/opt/ros/melodic/bin:/home/joe/.vscode-server/bin/91899dcef7b8110878ea59626991a18c8a6a1b3e/bin:/home/joe/anaconda3/bin:/home/joe/anaconda3/condabin:/home/joe/.vscode-server/bin/91899dcef7b8110878ea59626991a18c8a6a1b3e/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
 export PWD="/home/joe/projects/rl/src/arena2d/build"
 export PYTHONPATH="/home/joe/projects/rl/src/arena2d/build/devel/lib/python2.7/dist-packages:$PYTHONPATH"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/joe/projects/rl/src/arena2d/build/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
