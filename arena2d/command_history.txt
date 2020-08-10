@@ -1,8 +1,0 @@
-level 3
-level 3
-level 3
-level 3
-q
-exit
-level 3
-start_training training/agent_level2_random_GRU/agent_level2_random_GRU_stack_1/agent_train.py
