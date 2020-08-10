@@ -1,4 +1,4 @@
 <launch>
-    <node name="arena" pkg="arena2d" type="arena">
+    <node name="arena" pkg="arena2d" type="arena" output="screen">
     </node>
 </launch>

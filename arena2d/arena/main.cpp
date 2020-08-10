@@ -4,10 +4,10 @@ int main(int argc, char ** argv)
 {
 	/* create and run arena */
 	Arena a;
-	// if(a.init(argc, argv)){
-	// 	return 1;
-	// }
-	a.init(0,nullptr);
+	if(a.init(argc, argv)){
+		return 1;
+	}
+
 	#ifndef ARENA_USE_ROS
 		a.run();
 	#else

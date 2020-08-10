@@ -22,11 +22,11 @@ struct EnvironmentThread{
 	~EnvironmentThread();
 	static int thread_func(void * data);
 	static int thread_func_(void * data);
-	void init(Environment * _env, int _num_envs, int _env_index, const int * _action);
+	void init(Environment * _env, int _num_envs, int _env_index, const volatile int * _action);
 	void step();
 	void wait_finish();
 	Environment * env;// multiple envs
-	const int * action;// multple actions
+	const volatile int * action;// multple actions
 	int num_envs;
 	int env_index;// index of first environment
 	enum State {WAITING, RUNNING, EXIT} state;

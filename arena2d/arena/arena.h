@@ -133,7 +133,7 @@ private:
 		bool remoteCommand(	arena2d::arenaCommand::Request & req,
 						   	arena2d::arenaCommand::Response & res);
 		bool interactionCallback( arena2d::InteractionDiscActs::Request & req, arena2d::InteractionDiscActs::Response & res);
-		void step_update(); // only handle key-stroke, other logics such as prestep, poststep implemented in update will be move to interactionCallback
+		void step_update(); // handle key strokes and physic model update.
 	#endif
 
 
@@ -186,8 +186,8 @@ private:
 	float _timePerEpisode;
 	int _episodeEnd;// -1: failure (time or wall hit), 0: not ended yet, 1: success (goal reached)
 	int _lastAction;// last action performed by agent
-	int * _actions;// action to perform in multiple environments
-	bool * _dones;// episode done
+	volatile int * _actions;// action to perform in multiple environments
+	volatile bool * _dones;// episode done
 	bool _consoleEnabled;
 	bool _translateCamera;
 	bool _rotateCamera;
@@ -207,6 +207,7 @@ private:
 	pthread_mutex_t interaction_mutex_; // the server for the interaction with a agent is kept running in a thread. we use this mutex to synchronize the speed of interaction-rate and update-rate, if FPS of _updateTimer was set.
 	ros::CallbackQueue interaction_callback_queue_;
 	std::unique_ptr<ros::AsyncSpinner> interaction_async_spinner_ptr_;
+	volatile bool m_need_perform_actions;
 	#endif
 
 

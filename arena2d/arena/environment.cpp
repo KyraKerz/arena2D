@@ -20,7 +20,7 @@ EnvironmentThread::~EnvironmentThread(){
 	SDL_DestroyCond(state_cond);
 }
 
-void EnvironmentThread::init(Environment * _env, int _num_envs, int _env_index, const int * _action){
+void EnvironmentThread::init(Environment * _env, int _num_envs, int _env_index,volatile const int * _action){
 	env = _env;
 	num_envs = _num_envs;
 	env_index = _env_index;

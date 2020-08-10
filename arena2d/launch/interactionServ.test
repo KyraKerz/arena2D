@@ -1,6 +1,5 @@
 <launch>
-    <include file="$(find arena2d)/launch/arena.launch">
-    </include>
+     <include file="$(find arena2d)/launch/arena.launch"/>
     <test test-name="interaction_service_test" pkg="arena2d" type="testArenaInteractionSev.py">
     </test>
 </launch>

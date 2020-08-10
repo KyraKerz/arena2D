@@ -29,6 +29,12 @@ int Arena::init(int argc, char ** argv)
 	int command_index = -1;
 	int arg_i = 1;
 	while(arg_i < argc){
+		// argument start with two '_' should be ignored.these kind of arguments are be added 
+		// when using roslaunch.
+		if(argv[arg_i][0]==argv[arg_i][1] && argv[arg_i][0]=='_'){
+			arg_i++;
+			continue;
+		}
 		if(!strcmp(argv[arg_i], "--disable-video")){// no video 
 			disable_video = true;
 		}
@@ -744,7 +750,7 @@ int Arena::update()
 				_meanSuccess.push((s == Environment::POSITIVE_END) ? 1 : 0);
 				_meanSuccess.calculateMean();
 				_dones[i] = true;
-
+				INFO("done");
 				// adding reward to total reward buffer
 				_meanReward.push(_envs[i].getTotalReward());
 				_meanReward.calculateMean();
